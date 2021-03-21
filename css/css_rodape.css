@@ -1,0 +1,12 @@
+.th{
+	width:99%;
+	font-family: "Comic Sans MS";
+	position:absolute;
+	clear: both;
+	padding: 10px;
+	bottom:0;
+	background: #7a91c1;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,75 @@
+body, .menu, .sub-menu{
+	font-family: "Comic Sans MS";
+	margin: 0;
+	padding: 0;
+}
+
+.body{
+	background-image: url(../imagens/background.png);
+	background-size: cover;
+}
+
+.div{
+	width: 100%;
+}
+
+.clearfix:after{
+	content: '.';
+	display: block;
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.menu, .sub-menu{
+	list-style: none;
+	background-color: #7a91c1;
+}
+
+.sub-menu{
+	background-color: #324756;
+}
+
+.menu a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: "Comic Sans MS";
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.menu li{/*esse css irá funcionar para todos os LIs que estiverem dentro da classe MENU*/
+	position: relative;
+}
+
+.menu > li{/*esse css irá funcionar apenas para os filhos diretos do LI, ou seja, para os MENUS principais*/
+	float: left;
+}
+
+.menu > li:hover{
+	background: #324756;
+}
+
+.menu li:hover > .sub-menu{
+	display: block;
+}
+
+.sub-menu{
+	display: none;
+	position: absolute;
+	min-width: 150px;
+}
+
+.sub-menu li:hover{
+	background: #555;
+}
+.sub-menu .sub-menu{
+	left: 100%;
+	top: 0;
+}
