@@ -10,3 +10,10 @@
 	font-size: 14px;
 	text-transform: uppercase;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}

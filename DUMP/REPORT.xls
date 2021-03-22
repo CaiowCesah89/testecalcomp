@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table>
+	<tr>
+		<td>MODELO</td>
+		<td>FAT_PART_NO</td>
+		<td>TOTAL_LOCATION</td>
+		<td>PARTS_NO</td>
+		<td>UNT_USG</td>
+		<td>DESCRIPTION</td>
+		<td>REF_DESIGNATOR</td>
+		<tr>
+				<td class='td'>SSD018</td>
+				<td class='td'>SD018CMABOT</td>
+				<td class='td'>129</td>
+				<td class='td'>HGSE5014R05</td>
+				<td class='td'>1</td>
+				<td class='td'>LABEL PCB BARCODE LABEL 10X6MM 25# PLASTIC BLANK</td>
+				<td class='td'>NULL</td>
+
+			</tr><tr>
+				<td class='td'>SSD018</td>
+				<td class='td'>SD018CMABOT</td>
+				<td class='td'>129</td>
+				<td class='td'>SAH000001Z9</td>
+				<td class='td'>1</td>
+				<td class='td'>IC(EPROM) 24C04 4K UFDPN</td>
+				<td class='td'>U10</td>
+
+			</tr><tr>
+				<td class='td'>SSD018</td>
+				<td class='td'>SD018CMAB1R</td>
+				<td class='td'>124</td>
+				<td class='td'>DAH10003Z04</td>
+				<td class='td'>1</td>
+				<td class='td'>PCB_MULTI LAYER_10S_1OZ FR4 ENIG</td>
+				<td class='td'>PCB</td>
+
+			</tr>	</tr>
+</table>
+</body>
+</html>

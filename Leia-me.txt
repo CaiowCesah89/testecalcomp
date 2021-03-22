@@ -1,0 +1,11 @@
+Segue abaixo informações necessárias para a execuação do projeto.
+
+O projeto foi criado usando PHP, HTML e CSS.
+A base de dados foi criada usando um servidor XAMPP, este mesmo já serviu para realizar a tratativa das regras de negócios
+assim como a interpretação e exibição das páginas WEB.
+Estarei anexnado junto ao projeto o arquivo .SQL necessário para a criação do banco de dados assim como um DUMP da base utilizada.
+O sistema se conecta ao banco de dados utilizando o usuário root, não é necessário senha, e o nome da base de dados é
+testecalcomp.
+
+Referente ao EXPORT para excel, fiz a exportação solicitada, porém, não implementei o retorno para o Index novamente.
+O Arquivo gerado pelo EXPORT encontra-se dentro da pasta DUMP com os demais arquivos.
